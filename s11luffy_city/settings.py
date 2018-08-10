@@ -124,7 +124,8 @@ REST_FRAMEWORK = {
     'DEFAULT_VERSION': 'v1',
     'ALLOWED_VERSIONS': ['v1', 'v2'],
     'PAGE_SIZE': 20,
-    'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser', ]
+    'DEFAULT_PARSER_CLASSES': ['rest_framework.parsers.JSONParser', ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
 }
 
 CORS_METHODS = "PUT,DELETE"
