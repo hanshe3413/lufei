@@ -131,3 +131,4 @@ CORS_METHODS = "PUT,DELETE"
 CORS_HEADERS = "xxxxx,xxxxfsdf"
 
 LUFFY_SHOPPING_CAR = "shopping_car_%s_%s"
+ALLOWED_HOSTS = ['*']
